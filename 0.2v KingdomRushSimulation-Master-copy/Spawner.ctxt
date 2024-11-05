@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Spawner
-comment0.text=\n\ A\ Spawner\ object\ is\ a\ place\ where\ a\ Vehicle\ can\ spawn.\ Each\ spawner\ is\n\ able\ to\ check\ if\ there\ is\ already\ a\ Vehicle\ in\ the\ spot\ to\ avoid\ spawning\n\ multiple\ Vehicles\ on\ top\ of\ each\ other.\n\ \n\ These\ can\ be\ shown\ in\ order\ to\ help\ understand\ and\ build\ the\ simulation,\n\ but\ should\ be\ hidden\ when\ your\ project\ is\ complete.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ A\ Spawner\ object\ is\ a\ place\ where\ a\ Vehicle\ can\ spawn.\ Each\ spawner\ is\r\n\ able\ to\ check\ if\ there\ is\ already\ a\ Vehicle\ in\ the\ spot\ to\ avoid\ spawning\r\n\ multiple\ Vehicles\ on\ top\ of\ each\ other.\r\n\ \r\n\ These\ can\ be\ shown\ in\ order\ to\ help\ understand\ and\ build\ the\ simulation,\r\n\ but\ should\ be\ hidden\ when\ your\ project\ is\ complete.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=Spawner()
 numComments=2
