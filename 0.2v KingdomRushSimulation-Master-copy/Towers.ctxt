@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Towers
+comment1.params=
+comment1.target=boolean\ damageMonster()
+comment2.params=range\ damage\ AOE
+comment2.target=Towers(int,\ int,\ boolean)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ damageClosestMonster()
+comment5.params=
+comment5.target=Monsters\ getClosestMonsterInRange()
+comment6.params=actor
+comment6.target=double\ getDistance(greenfoot.Actor)
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Path
+comment0.text=\r\n\ \ The\ Path\ Class\r\n\ \ \r\n\ \ Originally\ created\ for\ advanced\ students\ with\ the\ Vehicle\ Simulation\ in\ mind.\ Can\ be\ used\ for\ anything\ that\r\n\ \ requires\ pre-set\ or\ dynamically\ generated\ paths\ (I.e.\ enemies\ patrolling,\ vehicles\ following\ a\ road,\ etc.)\r\n\ \ \r\n\ \ To\ use\ a\ Path\:\r\n\ \ \r\n\ \ -\ First,\ create\ a\ Path\ Object,\ populate\ it\ with\ points,\ and\ then\ call\ calculateRotationVectors()\ to\ fill\r\n\ \ \ \ in\ the\ necessary\ rotation\ information.\ (See\ Patroller\ class\ for\ an\ example)\r\n\ \ -\ Second,\ store\ your\ path\ object\ somewhere\ that\ makes\ sense\ -\ often\ it\ will\ be\ an\ object\ assigned\ to\ the\ \r\n\ \ \ \ Actor\ that\ is\ following\ it,\ but\ sometimes\ it\ might\ also\ be\ stored\ in\ the\ World,\ in\ a\ Lane\ class,\ etc.\ \r\n\ \ -\ Finally,\ use\ the\ Path's\ move\ method.\ Each\ time\ you\ call\ the\ move\ method,\ you\ specify\ how\ far\ you\ want\r\n\ \ \ \ to\ travel\ along\ the\ path.\ The\ returned\ PathResult\ is\ the\ coordinate\ and\ rotation\ that\ represents\ moving\r\n\ \ \ \ along\ the\ path\ the\ desired\ distance,\ so\ you\ simply\ set\ the\ location\ and\ rotation\ of\ the\ Actor\ accordingly\r\n\ \ \ \ (again,\ see\ the\ example\ in\ the\ Patroller\ class)\r\n\ \ \r\n
+comment1.params=resolution
+comment1.target=Path(double)
+comment2.params=x\ y
+comment2.target=void\ addPoint(int,\ int)
+comment3.params=
+comment3.target=void\ calculateRotationVectors()
+comment4.params=vehicle\ speed\ rotationSpeed
+comment4.target=PathResult\ move(greenfoot.Actor,\ double,\ double)
+comment5.params=vehicle\ speed
+comment5.target=PathResult\ move(greenfoot.Actor,\ double)
+comment6.params=base\ path
+comment6.target=void\ drawPath(greenfoot.GreenfootImage,\ Path)
+numComments=7
